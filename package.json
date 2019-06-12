@@ -1,21 +1,21 @@
 {
   "name": "passport-citi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "description": "passport strategy for authenticating with citi sandbox account",
-  "homepage": "https://qbit.js.org",
+  "homepage": "https://github.com/Jeff-Tian/passport-citi",
   "bugs": "",
   "author": {
     "name": "Jeff Tian",
     "email": "jeff.tian@outlook.com",
-    "url": "https://qbit.js.org"
+    "url": "https://github.com/Jeff-Tian/passport-citi"
   },
   "scripts": {
     "eslint": "./node_modules/.bin/eslint ./app"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Jeff-Tian/passport-citi"
   },
   "license": "MIT",
   "files": [
@@ -30,7 +30,7 @@
     "eslint": "^1.4.1"
   },
   "dependencies": {
-    "citi-oauth": "0.1.0",
+    "citi-oauth": "0.1.1",
     "debug": "latest",
     "passport": "^0.3.0",
     "passport-strategy": "^1.0.0",
