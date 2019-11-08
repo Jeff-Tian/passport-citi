@@ -3,6 +3,9 @@
 > [Passport](http://passportjs.org/) strategy for authenticating with [Citi Account](https://sandbox.developerhub.citi.com/get-started)
 
 [![Dependencies](https://david-dm.org/liangyali/passport-citi.svg)](https://david-dm.org/liangyali/passport-citi)
+[![Build Status](https://travis-ci.com/Jeff-Tian/passport-citi.svg?branch=master)](https://travis-ci.com/Jeff-Tian/passport-citi)
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Jeff-Tian_passport-citi)](https://sonarcloud.io/dashboard?id=Jeff-Tian_passport-citi)
 
 ## 支持功能
 
