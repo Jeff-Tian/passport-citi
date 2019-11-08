@@ -1,6 +1,6 @@
 {
   "name": "passport-citi",
-  "version": "0.2.4",
+  "version": "0.0.0-development",
   "main": "lib/index.js",
   "description": "passport strategy for authenticating with citi sandbox account",
   "homepage": "https://github.com/Jeff-Tian/passport-citi",
@@ -11,7 +11,8 @@
     "url": "https://github.com/Jeff-Tian/passport-citi"
   },
   "scripts": {
-    "eslint": "./node_modules/.bin/eslint ./app"
+    "eslint": "./node_modules/.bin/eslint ./app",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -27,14 +28,14 @@
   ],
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^4.18.2"
+    "eslint": "^4.18.2",
+    "semantic-release": "^15.13.30"
   },
   "dependencies": {
-    "citi-oauth": "0.2.2",
+    "citi-oauth": "1.1.0",
     "debug": "latest",
     "passport": "^0.3.0",
     "passport-strategy": "^1.0.0",
-    "wechat-oauth": "^1.0.1",
     "xtend": "^4.0.0"
   }
 }

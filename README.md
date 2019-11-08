@@ -1,16 +1,21 @@
 # passport-citi
 
+> [Passport](http://passportjs.org/) strategy for authenticating with [Citi Account](https://sandbox.developerhub.citi.com/get-started)
+
 [![Dependencies](https://david-dm.org/liangyali/passport-citi.svg)](https://david-dm.org/liangyali/passport-citi)
 
-[Passport](http://passportjs.org/) strategy for authenticating with [Citi Account](https://sandbox.developerhub.citi.com/get-started)
-
-##支持功能
+## 支持功能
 
 - 花旗 Sandbox 账号登录
+- 获取花旗用户账号信息
+
+## 在线演示
+
+- https://pa-ca.me
 
 ## 安装
 
-    $ npm install passport-citi
+    npm install passport-citi --save
 
 ## 使用
 
