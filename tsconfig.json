@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "target": "ES2017",
+    "module": "commonjs",
+    "declaration": true
+  },
+  "include": ["test"],
+  "exclude": ["node_modules"]
+}

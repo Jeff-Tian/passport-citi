@@ -12,7 +12,8 @@
   },
   "scripts": {
     "eslint": "./node_modules/.bin/eslint ./app",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "test": "mocha --require espower-typescript/guess \"test/**/*.test.ts\""
   },
   "repository": {
     "type": "git",
@@ -27,12 +28,18 @@
     "citi"
   ],
   "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.7",
     "babel-eslint": "^10.0.1",
     "eslint": "^4.18.2",
-    "semantic-release": "^15.13.30"
+    "espower-typescript": "^9.0.2",
+    "mocha": "^6.2.2",
+    "power-assert": "^1.6.1",
+    "semantic-release": "^15.13.30",
+    "typescript": "^3.7.2"
   },
   "dependencies": {
-    "citi-oauth": "1.3.1",
+    "citi-oauth": "1.4.0",
     "debug": "latest",
     "passport": "^0.3.0",
     "passport-strategy": "^1.0.0",
