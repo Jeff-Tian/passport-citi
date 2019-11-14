@@ -9,8 +9,12 @@
 
 ## 支持功能
 
-- 花旗 Sandbox 账号登录
-- 获取花旗用户账号信息
+- 花旗 Sandbox 账号登录（示例：https://pa-ca.me/）
+- 获取花旗用户账号信息（示例：https://pa-ca.me/）
+- 获取积分余额（WIP）
+- 获取卡片列表（示例：https://pa-ca.me/pages/cards/cards）
+- 充积分（WIP）
+- 获取 Onboarding 产品列表（示例：https://pa-ca.me/pages/products/all）
 
 ## 在线演示
 

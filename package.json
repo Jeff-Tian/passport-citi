@@ -39,7 +39,7 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "citi-oauth": "1.4.0",
+    "citi-oauth": "1.5.0",
     "debug": "latest",
     "passport": "^0.3.0",
     "passport-strategy": "^1.0.0",
